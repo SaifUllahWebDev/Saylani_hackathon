@@ -72,6 +72,11 @@
     padding: 10px 40px;
 }
 
+@media screen and (max-width:1060px) {
+    hero-img img {
+        flex-direction: column;
+    }
+}
 
 /* HERO CODE END */
 
