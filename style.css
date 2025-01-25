@@ -27,6 +27,10 @@
 #logo{
     width: 250px;
 }
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* NAVBAR CODE ENDS  */
