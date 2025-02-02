@@ -27,6 +27,10 @@
 #logo{
     width: 250px;
 }
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* NAVBAR CODE ENDS  */
@@ -68,6 +72,11 @@
     padding: 10px 40px;
 }
 
+@media screen and (max-width:1060px) {
+    hero-img img {
+        display: none;
+    }
+}
 
 /* HERO CODE END */
 
@@ -154,7 +163,15 @@
 
 /* <!-- CONTACT CODE STARTS  --> */
 
+<<<<<<< HEAD
 /* FOOTER SECTION */
+=======
+input{
+    /* padding-top: 100px; */
+}
+
+/* FOOTER CODE STARTS */
+>>>>>>> be8f368c8eff44787c5fcdb3cb7aa13a9f83ffc7
 
 .footer {
     width: 100%;
@@ -268,4 +285,8 @@
     .footer-col form button {
         margin: 10px 0 0 0;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> be8f368c8eff44787c5fcdb3cb7aa13a9f83ffc7
